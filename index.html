@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Document</title>
+     <link rel="Stylesheet" href="./index.css">
+     <script src="./index.js"></script>
+</head>
+<body>
+    <div id="container">
+       <form name="clac">
+        <input id="display" name="Answers">
+        <br><br>
+        <input class="buttons" type="button" value="1" onclick="clac.Answers.value+='1'">
+        <input class="buttons" type="button" value="2" onclick="clac.Answers.value+='2'">
+        <input class="buttons" type="button" value="3" onclick="clac.Answers.value+='3'">
+        <input class="buttons" type="button" value="+" onclick="clac.Answers.value+='+'">
+        <br><br>
+        <input class="buttons" type="button" value="4" onclick="clac.Answers.value+='4'">
+        <input class="buttons" type="button" value="5" onclick="clac.Answers.value+='5'">
+        <input class="buttons" type="button" value="6" onclick="clac.Answers.value+='6'">
+        <input class="buttons" type="button" value="-" onclick="clac.Answers.value+='-'">
+        <br><br>
+        <input class="buttons" type="button" value="7" onclick="clac.Answers.value+='7'">
+        <input class="buttons" type="button" value="8" onclick="clac.Answers.value+='8'">
+        <input class="buttons" type="button" value="9" onclick="clac.Answers.value+='9'">
+        <input class="buttons" type="button" value="*" onclick="clac.Answers.value+='*'">
+        <br><br>
+        <input class="buttons" type="button" value="/" onclick="clac.Answers.value+='/'">
+        <input class="buttons" type="button" value="0" onclick="clac.Answers.value+='0'">
+        <input class="buttons" type="button" value="." onclick="clac.Answers.value+='.'">
+        <input class="buttons" type="button" value="%" onclick="clac.Answers.value+='%'">
+        <br><br>
+        <input id="clearButton" type="button" value="Clear" onclick="clac.Answers.value=''">
+        <input id="equalButton" type="button" value="=" onclick="clac.Answers.value=eval(clac.Answers.value)">
+       
+       </form>
+
+    </div>
+</body>
+</html>
